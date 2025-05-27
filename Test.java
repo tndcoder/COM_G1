@@ -22,5 +22,19 @@ public class Test
 	{
 		return top==stk.length-1;
 	}
+	public void push(int item)
+	{
+		if(isFull())
+		{
+			System.out.println(x:"stack is overflow")
+
+		}else
+		{
+			stk[++top]=item;
+
+		}
+
+
+	}
 
 }
