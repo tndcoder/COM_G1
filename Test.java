@@ -37,4 +37,23 @@ public class Test
 
 	}
 
+	public int pop()
+	{
+		if(isEmpty())
+		{
+			System.out.println(x:"Stack is underflow");
+			return 0;
+
+
+		}else
+		{
+				int item=stk[top++];
+				return item;
+
+		}
+
+
+	}
+	
+
 }
